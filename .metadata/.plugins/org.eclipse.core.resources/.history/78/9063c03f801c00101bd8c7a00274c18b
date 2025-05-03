@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class WhileLoopWithBreak {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n;
+		Scanner in = new Scanner(System.in);
+		
+		
+		while ( true) {
+			
+			System.out.println(" enter a number");
+			n = in.nextInt();
+			if( n == 0)
+				break;
+			
+			System.out.println(" you entered " + n);
+		}
+
+	}
+
+}
