@@ -17,24 +17,10 @@ public class Classif implements MyInterface {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
-		
 		MyInterface in = new Classif();
 		in.greet();
 		Classif ci = new Classif();
 		ci.greet();
-		
-		
-	//	Classif.info();
-		
-		
-//		List<String> names = Arrays.asList("Alice", "Abhi", "Bob", "Charlie");
-//
-//		 names.stream()                   // Create Stream
-//		     .filter(name -> name.startsWith("A"))  // Intermediate
-//		     .map(String::toUpperCase)              // Intermediate
-//		     .forEach(System.out::println);         // Terminal
-
 	}
 
 }

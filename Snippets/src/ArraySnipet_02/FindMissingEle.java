@@ -8,7 +8,7 @@ public class FindMissingEle {
 		int actualSum = 0;
 		
 		for ( int num : arr) {
-			actualSum = actualSum + num;
+			actualSum += num;
 		}
 		return expectedSum - actualSum;
 	}
